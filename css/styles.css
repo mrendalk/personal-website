@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 1rem 0.5rem;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	max-width: 60rem;
+	margin: 0 auto;
+	color: #333;
+}
+
+img {
+	max-width: 100%;
+}
+
+.Header {
+	text-align: center;
+	border-bottom: 8px double #f9f9f9;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+.Strap {
+	font-size: 1rem;
+}
+.profilepic {
+	
+	border-radius: 100%;
+}
+
+
+.ImageCaption {
+	font-size: 0.75rem;
+	position: absolute;
+	bottom: 0.5rem;
+	right: 1rem;
+	padding: 3px;
+	background-color: #222;
+	color: #e4e4e4;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(4, 109, 21);
+    
+}
+.styled1 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(245, 229, 9);
+    
+}
+.styled2 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(220, 0, 0);
+    
+}
+
+.IntroText {
+	font-size: 1.8rem;
+	font-style: italic;
+}
+
+.MethodWrapper li {
+	padding: 0.4rem 0;
+}
+
+@media screen and (min-width: 800px) {
+	body {
+		border-left: 4px solid #f9f9f9;
+		border-right: 4px solid #f9f9f9;
+		padding: 1rem 2rem;
+	}
+
+	.IntroWrapper {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+	.IntroText {
+		display: table-cell;
+		width: 50%;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	.IntroText {
+		padding: 0.5rem;
+		font-size: 2.5rem;
+		text-align: left;
+		position: relative;
+	}
+
+	.Ingredients {
+		font-size: 0.9rem;
+		float: right;
+		padding: 1rem;
+		margin: 0 0 0.5rem 1rem;
+		border-radius: 3px;
+		background-color: #e0e09a;
+		border: 2px solid #e8cfa9;
+	}
+
+	.Ingredients h3 {
+		margin: 0;
+	}
+}

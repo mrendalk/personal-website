@@ -1,0 +1,63 @@
+.head1{
+    color: coral;
+    text-align: center;
+}
+.body1{
+    font-size: 12px;
+    color: blanchedalmond;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+      
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(4, 109, 21);
+    
+}
+.styled1 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(245, 229, 9);
+    
+}
+.styled2 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(220, 0, 0);
+    
+}
+
+
+.paragraph1{
+    color: bisque;
+    font-size: 20px;
+    
+}
+.body2{
+    background-image: url("kali1.jpg");
+    border-image-width: auto;
+    image-resolution: 300px;
+    width: 50%;
+    float:right;width:42px;height:42px;
+}
